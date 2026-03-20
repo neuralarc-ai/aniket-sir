@@ -74,7 +74,7 @@ export default function AppGrid() {
         </p>
         <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-5 gap-2">
           {filtered.map((app, i) => (
-            <AppCard key={app.id} app={app} index={i} />
+            <AppCard key={app.id} app={app} />
           ))}
           {filtered.length === 0 && (
             <p className="col-span-5 text-center text-muted-foreground text-sm py-10">
