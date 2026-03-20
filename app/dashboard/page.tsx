@@ -177,7 +177,7 @@ export default function Dashboard() {
         />
       </div>
 
-      <header className="w-full flex items-center justify-center sticky top-0 p-2 backdrop-blur-xs ">
+      <header className="w-full flex items-center justify-center sticky top-0 p-2 backdrop-blur-xs z-50">
         <div className="flex items-center justify-between w-full md:max-w-7xl">
           <img
             src="/neuralarc.svg"
